@@ -82,6 +82,7 @@ public class Floor
                     	tempBlock.getType().equals(Material.DARK_OAK_DOOR) ||
                     	tempBlock.getType().equals(Material.JUNGLE_DOOR) ||
                     	tempBlock.getType().equals(Material.SPRUCE_DOOR) ||
+                        tempBlock.getType().equals(Material.OAK_DOOR) ||
                     	tempBlock.getType().equals(Material.IRON_DOOR))
                         this.doorOpenBlock.add(tempBlock);
                 }
